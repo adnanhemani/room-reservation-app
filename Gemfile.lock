@@ -245,6 +245,8 @@ GEM
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
+    simplecov-cobertura (1.3.0)
+      simplecov (~> 0.8)
     simplecov-html (0.10.2)
     spring (2.0.2)
       activesupport (>= 4.2)
@@ -298,6 +300,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   selenium-webdriver
   simplecov
+  simplecov-cobertura
   spring
   sprockets
   turbolinks
@@ -305,4 +308,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.16.3
